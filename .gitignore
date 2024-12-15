@@ -1,0 +1,63 @@
+# compiled output
+/dist
+apps/*/dist
+libs/*/dist
+/build
+apps/*/build
+libs/*/build
+
+/node_modules
+apps/*/node_modules
+libs/*/node_modules
+
+# production
+**/build
+**/dist
+
+# Logs
+logs
+*.log
+*.log.md
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/apps/*/coverage
+/libs/*/coverage
+/.nyc_output
+
+# IDEs and editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Secrets
+.truffle-secrets.json
+**/*.env*
+!**/.env.example
+*.deps
+
+# Misc
+**/stats.html
+*.temp
+*.tmp
+
+# E2E
+e2e/screenshots
