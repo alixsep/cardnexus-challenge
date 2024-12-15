@@ -67,7 +67,7 @@ const Home: React.FC = () => {
   return (
     <div className="flex h-full">
       {/* Left pane: Search Fields & Expression Builder */}
-      <div className="flex-1 p-4">
+      <div className="flex-1 p-4 overflow-auto">
         <Title
           icon={<Search size={18} strokeWidth={2.5} />}
           text="Card Search"
