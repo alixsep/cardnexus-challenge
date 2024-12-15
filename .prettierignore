@@ -1,0 +1,13 @@
+/dist
+apps/**/dist
+libs/**/dist
+/build
+apps/**/build
+libs/**/build
+
+/node_modules
+apps/**/node_modules
+libs/**/node_modules
+
+/.vscode
+/.tmp
